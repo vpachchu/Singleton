@@ -5,6 +5,7 @@ public class Hostel {
     private static Hostel room;
     private Hostel() {
 
+
     }
 
     public static Hostel getRoom(int roomNo) {
@@ -18,7 +19,6 @@ public class Hostel {
                 }
             }
         }
-
 
             System.out.println("Room Num is : " + roomNo);
             return room;
