@@ -5,7 +5,6 @@ public class Hostel {
     private static Hostel room;
     private Hostel() {
 
-
     }
 
     public static Hostel getRoom(int roomNo) {
